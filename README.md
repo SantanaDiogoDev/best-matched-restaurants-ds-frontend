@@ -16,6 +16,8 @@ The objetive is use the [backend](https://github.com/SantanaDiogoDev/best-matche
 
 ```npm start```
 
+The application will be available in: ```http://localhost:3000```
+
 ## Testing
 
 ```npm test```
