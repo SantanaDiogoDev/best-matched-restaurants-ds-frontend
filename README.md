@@ -5,7 +5,7 @@
 This application is a simple website for finding the best-matched restaurant based on search criteria.
 The application is built using React.
 
-The objetive is use the [backend](https://github.com/SantanaDiogoDev/best-matched-restaurants-ds) to show the results of the APi.
+The objetive is use the [backend](https://github.com/SantanaDiogoDev/best-matched-restaurants-ds) to show the results of the API.
 
 
 ## Installing Dependences

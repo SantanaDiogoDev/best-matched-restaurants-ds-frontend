@@ -4,6 +4,8 @@ import './App.css';
 import Form from './Form';
 import Restaurants from './Restaurants';
 
+const { API_URL } = require('./properties.js');
+
 export default function App() {
   const [restaurants, setRestaurants] = useState([]);
 
@@ -35,7 +37,7 @@ export default function App() {
 
   const fetchRestaurants = async () => {
     try {
-      const response = await axios.get('http://localhost:8080/restaurants/filter', {
+      const response = await axios.get(API_URL, {
         params: form
       });
       setRestaurants(response.data);
