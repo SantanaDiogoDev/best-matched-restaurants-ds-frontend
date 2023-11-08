@@ -53,18 +53,18 @@ function App(){
           </label>
           <label>
             Customer Rating:
-            <input type="range" name="customerRating" value={form.customerRating} min="1" max="5" onChange={handleChange} />
+            <input className="input-range" type="range" name="customerRating" value={form.customerRating} min="1" max="5" onChange={handleChange} />
             <span>{form.customerRating}</span>
           </label>
           <label>
             Distance:
-            <input type="range" name="distance" value={form.distance} min="1" max="10" onChange={handleChange} />
+            <input className="input-range" type="range" name="distance" value={form.distance} min="1" max="10" onChange={handleChange} />
             <span>{form.distance}</span>
           </label>
           <label>
             Price:
-            <input type="range" name="price" value={form.price} min="10" max="50" onChange={handleChange} />
-            <span>{form.distance}</span>
+            <input className="input-range" type="range" name="price" value={form.price} min="10" max="50" onChange={handleChange} />
+            <span>{form.price}</span>
           </label>
           <label>
             Cuisine:

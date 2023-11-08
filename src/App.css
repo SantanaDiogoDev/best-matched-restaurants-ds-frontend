@@ -5,7 +5,7 @@
 }
 
 label{
-  display: block;
+  display: flex;
   margin-bottom: 10px;
   text-align: right;
 }
@@ -29,12 +29,12 @@ label span {
   transform: scale(0.95);
 }
 
-.form-input {
-  width: 300px;
+input[type="range"] {
+  width: 150px;
 }
 
-.input {
-  padding: 5px;
+input {
+  padding: 1px;
   flex: 1;
   border: 1px solid #ccc;
   border-radius: 4px;
